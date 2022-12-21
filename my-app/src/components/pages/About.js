@@ -8,8 +8,7 @@ export default function About() {
   return (
     <Router>
         <Footer />
-        <Switch>
-          
+        <Switch>          
           <Route path='/Footer' component={Footer} />
         </Switch>
       </Router>
