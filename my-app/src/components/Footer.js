@@ -37,7 +37,7 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
+            <Link to='tel:+9199440954183'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>
@@ -53,10 +53,14 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <a href='https://www.instagram.com/invites/contact/?i=pxkpszfe311r&utm_content=odwckpt
+' target='https://www.instagram.com/invites/contact/?i=pxkpszfe311r&utm_content=odwckpt'>Instagram</a>
+            
+            <a href='https://www.facebook.com/OTMAmbur?mibextid=LQQJ4d
+' target='https://www.facebook.com/OTMAmbur?mibextid=LQQJ4d'>Facebook</a>
+            <a href='https://youtube.com/@oldtimbermartambur2483
+' target='https://youtube.com/@oldtimbermartambur2483'>Youtube</a>
+            <a href='https://maps.app.goo.gl/Hj6KYd996McanePB9?g_st=ic' target='https://maps.app.goo.gl/Hj6KYd996McanePB9?g_st=ic'>Location</a>
           </div>
         </div>
       </div>
@@ -70,46 +74,45 @@ function Footer() {
           </div>
           <small class='website-rights'>OTM © 2020</small>
           <div class='social-icons'>
-            <Link
+            <a
               class='social-icon-link facebook'
-              to='/'
-              target='_blank'
+              href="https://www.facebook.com/OTMAmbur?mibextid=LQQJ4d
+
+              "
+              target='https://www.facebook.com/OTMAmbur?mibextid=LQQJ4d
+
+              '
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link instagram'
-              to='/'
-              target='_blank'
+              href="https://www.instagram.com/invites/contact/?i=pxkpszfe311r&utm_content=odwckpt
+              "
+              target='https://www.instagram.com/invites/contact/?i=pxkpszfe311r&utm_content=odwckpt'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link youtube'
-              to='/'
-              target='_blank'
+              href="https://youtube.com/@oldtimbermartambur2483
+              "
+              target='https://youtube.com/@oldtimbermartambur2483'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
+            </a>
+            <a
+              class='social-icon-link Google MAP'
+              href='https://maps.app.goo.gl/Hj6KYd996McanePB9?g_st=ic'
+              target='https://maps.app.goo.gl/Hj6KYd996McanePB9?g_st=ic'
+              aria-label='Google MAP'
             >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+              <i class='fa fa-map-marker'/>
+            </a>
+            
           </div>
         </div>
       </section>
